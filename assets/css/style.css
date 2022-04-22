@@ -1,4 +1,9 @@
-/*first line didn't seem to  actually do anything*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 body {
     background-color: #d9dcd6;
@@ -82,28 +87,28 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* grouped to avoid repitive code*/
-.benefit-lead, .benefit-brand, .benefit-cost {
+/* grouped to avoid repitive code & gave a more generic class name*/
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* grouped to avoid repitive code*/
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefit h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
 
 /* grouped to avoid repitive code*/
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* grouped to avoid repitive code*/
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.business {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -113,11 +118,11 @@ p {
 }
 
 /* grouped to avoid repitive code*/
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.business img {
     max-height: 200px;
 }
 
-.content-card h2{
+.business h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
