@@ -27,10 +27,9 @@ I learned how to increase efficiency of CSS by consolidating the selectors and p
 
 ## Screenshots
 
-    ![Horiseon Homepage](./assets/images/Screen%20Shot%202022-05-22%20at%205.53.45%20PM.png)
+![Homepage](./assets/images/screenshot.png)
 
-
-    ![Horiseon Homepage continued](./assets/images/Screen%20Shot%202022-05-22%20at%205.54.01%20PM.png)
+![Homepage continued](./assets/images/screenshot2.png)
 
 ## Credits
 
